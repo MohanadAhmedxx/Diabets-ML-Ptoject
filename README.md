@@ -23,15 +23,16 @@ Features
 
 The model uses the following features:
 
-Feature| Description
-"Pregnancies"| Number of times the patient has been pregnant
-"Glucose"| Plasma glucose concentration
-"BloodPressure"| Diastolic blood pressure
-"SkinThickness"| Triceps skin fold thickness
-"Insulin"| 2-Hour serum insulin
-"BMI"| Body Mass Index
-"DiabetesPedigreeFunction"| Diabetes pedigree function, representing the genetic influence of diabetes
-"Age"| Age of the patient
+| Feature | Description
+|---|---|
+|"Pregnancies"| Number of times the patient has been pregnant
+|"Glucose"| Plasma glucose concentration
+|"BloodPressure"| Diastolic blood pressure
+|"SkinThickness"| Triceps skin fold thickness
+|"Insulin"| 2-Hour serum insulin
+|"BMI"| Body Mass Index
+|"DiabetesPedigreeFunction"| Diabetes pedigree function, representing the genetic influence of diabetes
+|"Age"| Age of the patient
 
 Target
 
