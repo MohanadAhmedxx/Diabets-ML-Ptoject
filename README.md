@@ -13,7 +13,7 @@ The models are evaluated using classification accuracy on both the training and 
 
 ---
 
-Dataset
+### Dataset
 
 The dataset contains 768 samples and 9 columns.
 
