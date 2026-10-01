@@ -63,7 +63,7 @@ LogisticRegression
 
 ---
 
-Machine Learning Workflow
+## Machine Learning Workflow
 
 ### The project follows these main steps:
 
