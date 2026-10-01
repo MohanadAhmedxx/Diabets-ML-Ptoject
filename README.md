@@ -19,7 +19,7 @@ The dataset contains 768 samples and 9 columns.
 
 It consists of 8 input features and 1 target variable ("Outcome").
 
-Features
+### Features
 
 The model uses the following features:
 
@@ -34,7 +34,7 @@ The model uses the following features:
 |"DiabetesPedigreeFunction"| Diabetes pedigree function, representing the genetic influence of diabetes
 |"Age"| Age of the patient
 
-Target
+### Target
 
 "Outcome" is the target variable:
 
@@ -43,7 +43,7 @@ Target
 
 ---
 
-Libraries Used
+### Libraries Used
 
 The project uses the following Python libraries:
 
@@ -51,7 +51,7 @@ The project uses the following Python libraries:
 - Pandas – data loading and data manipulation
 - Scikit-learn – data preprocessing, dataset splitting, machine learning models, and evaluation
 
-Scikit-learn Modules
+### Scikit-learn Modules
 
 The following tools from Scikit-learn are used:
 
@@ -65,9 +65,9 @@ LogisticRegression
 
 Machine Learning Workflow
 
-The project follows these main steps:
+### The project follows these main steps:
 
-1. Import the Required Libraries
+#### 1. Import the Required Libraries
 
 The required Python and Scikit-learn modules are imported.
 
@@ -79,7 +79,7 @@ from sklearn.model_selection import train_test_split
 
 ---
 
-2. Load the Dataset
+#### 2. Load the Dataset
 
 The diabetes dataset is loaded using Pandas:
 
@@ -91,7 +91,7 @@ The dataset contains:
 
 ---
 
-3. Separate Features and Target
+#### 3. Separate Features and Target
 
 The "Outcome" column is separated from the input features.
 
@@ -113,7 +113,7 @@ Y → (768,)
 
 ---
 
-4. Split the Dataset
+#### 4. Split the Dataset
 
 The dataset is divided into training and testing sets using "train_test_split".
 
@@ -142,7 +142,7 @@ Therefore:
 
 ---
 
-5. Feature Scaling
+#### 5. Feature Scaling
 
 Since the features have different numerical ranges, "StandardScaler" is used to standardize the training features.
 
@@ -233,7 +233,7 @@ The results show that both models achieved similar performance on the training d
 
 ---
 
-Complete Workflow
+### Complete Workflow
 
 The complete Machine Learning workflow can be summarized as:
 
@@ -267,7 +267,7 @@ Compare Results
 
 ---
 
-Conclusion
+### Conclusion
 
 This project demonstrates a basic Machine Learning classification workflow for diabetes prediction.
 
